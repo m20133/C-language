@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maina(void)
+int main(void)
 {
     int max, min, sum;
     printf("最小値を入力してください");
@@ -12,5 +12,5 @@ int maina(void)
 
     printf("%d~%dの合計は%dです",min, max, sum);
 
-
+        return 0;
 }
